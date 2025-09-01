@@ -98,7 +98,7 @@ export default function App() {
         <nav className="mx-auto max-w-6xl px-4 h-16 flex items-center justify-between">
           <a href="#home" className="font-semibold tracking-tight text-white">Rohit Kumar</a>
           <ul className="hidden md:flex items-center gap-6 text-sm">
-            {["Home", "Skills", "Projects", "About", "Contact"].map((label) => (
+            {["Home", "Skills", "Projects", "About"].map((label) => (
               <li key={label}><a href={`#${label.toLowerCase()}`} className="text-gray-300 hover:text-white transition">{label}</a></li>
             ))}
           </ul>
